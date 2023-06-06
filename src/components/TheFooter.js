@@ -8,10 +8,10 @@ export default class TheFooter extends Component{
     })
   }
   render(){
-    const { github, reposipory } = aboutStore.state
+    const { github, repository } = aboutStore.state
     this.el.innerHTML = `
     <div>
-      <a href="${reposipory}">
+      <a href="${repository}">
       GitHub Repository
       </a>
     </div>

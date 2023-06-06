@@ -1,5 +1,5 @@
-import { Component } from "../core/heropy.js";
-import aboutStore from '../store/about.js'
+import { Component } from "../core/heropy";
+import aboutStore from '../store/about'
 
 export default class TheFooter extends Component{
   constructor(){
@@ -8,10 +8,10 @@ export default class TheFooter extends Component{
     })
   }
   render(){
-    const { github, reposipory } = aboutStore.state
+    const { github, repository } = aboutStore.state
     this.el.innerHTML = `
     <div>
-      <a href="${reposipory}">
+      <a href="${repository}">
       GitHub Repository
       </a>
     </div>

@@ -1,0 +1,17 @@
+reviews:
+  auto_review:
+    enabled: true
+    drafts: false
+
+  review_status: true
+
+  path_filters:
+    - "!node_modules/**"
+    - "!dist/**"
+    - "!build/**"
+
+chat:
+  auto_reply: true
+
+knowledge_base:
+  enabled: true

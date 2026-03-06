@@ -8,6 +8,9 @@
     "build": "parcel build ./index.html",
     "vercel": "vercel dev"
   },
+  "engines": {
+    "node": "24.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
